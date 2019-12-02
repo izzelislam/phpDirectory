@@ -1,0 +1,28 @@
+<html>
+<body>
+<form method="post">
+	<input type="number" name="nilai">
+	<input type="submit">
+</form>
+
+<?php
+isset($_POST['nilai'])?$_POST['nilai']:"";
+$angka=$_POST['nilai'];
+
+switch ($angka){
+	
+	case 20:
+		echo "nilai anda E";
+		break;
+		
+	case 50:
+		echo "nilai E ++";
+		break;
+
+}
+
+
+?>
+
+</body>
+</html>
